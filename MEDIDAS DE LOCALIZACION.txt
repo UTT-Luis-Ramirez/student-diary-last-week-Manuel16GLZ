@@ -1,0 +1,106 @@
+MEDIDAS DE LOCALIZACION
+
+¿QUE SON LAS MEDIDAS DE LOCALIZACION?
+
+Un análisis de datos mas formal a menudo requiere el calculo e interpretación de medidas resumidas numéricas. Es decir, de los datos se trata de extraer varios valores numéricos resumidos, que podrían servir para caracterizar el conjunto de los datos y comunicar alguna de sus características prominentes
+
+estos nos ayudan a:
+
+Identificar tendencias centrales
+Dividir datos en partes iguales
+Detectar valores extremos
+Tomar decisiones basadas en métricas técnicas
+
+----------------------------------------------------------------------------------------
+
+MEDIDAS DE TENDENCIA CENTRAL
+
+MEDIA ARITMETICA (PROMEDIO)
+
+Para un conjunto dado de números X1, X2, X3 …………., Xn, la medida mas conocida y útil del centro es la media aritmética o promedio del conjunto. Como casi siempre se pensara que los números Xi constituyen una muestra, a menudo se hará referencia al promedio como la Media Muestral y se le denotara por X
+
+                                             X1 + X2 + . . . Xn       1      n
+                                     X = ------------------------ =  --               	Xi
+                                                       n                     n      i = 1
+
+---------------------------------------------------------------------------------
+
+LA MEDIANA
+
+La palabra mediana es sinónimo de "medio y la mediana muestral es en realidad el valor medio una vez que se ordenan las observaciones de la mas pequeña a la mas grande
+
+La mediana muestral se obtiene ordenando primero las N observaciones de la mas pequeña a la mas grande (con cualesquiera valores repetidos incluidos de modo que cada observación muestral aparezca en la lista ordenada). Entonces
+
+Cuando el valor de N es impar: 
+ 
+                                                    X = X (N + 1) / 2
+
+Cuando el valor de N es par:
+
+                                                   X = 1 / 2 ( Xn / 2 + X ( N / 2 ) + 1 )
+
+----------------------------------------------------------------------------------------------
+
+LA MEDIA RECORTADA
+
+La media es bastante sensible a un solo valor extremo, mientras que la mediana es insensible a muchos valores apartados
+
+Una Muestra Recortada es un termino medio entre X y X. una media 10% recortada, por ejemplo, se calcularía eliminando el 10% mas pequeño y el 10% mas grande de la muestra y luego promediando el resultante
+
+---------------------------------------------------------------------------------------------------
+
+CUARTILES
+
+Los cuartiles son los valores que dividen un conjunto de datos en cuatro partes iguales. Son una herramienta que tiene la estadística para evaluar la tendencia central, la dispersión y la variabilidad de las observaciones
+
+Los cuartiles se representan con la letra Q seguida por el número del cuartil. Por ejemplo, el cuartil 1 es el cuartil inferior, el cuartil 2 es el cuartil medio y el cuartil 3 es el cuartil superior, respectivamente Q1, Q2 y Q3
+
+                                                   ( n + 1 - k )
+                                       Qk = ------------------ , donde k { 1, 2, 3. }
+                                                          4
+
+---------------------------------------------------------------------------------
+
+PERCENTILES
+
+Estos son valores que dividen un conjunto de datos en partes iguales y que indican el porcentaje de datos que son menores o igual a ellos. Los percentiles son una medida de posición que se utiliza para comparar y contextualizar datos
+
+                                              ( n + 1 ) k
+                                   Pk = ---------------- , donde k { 1, 2, . . ., 99 }
+                                                 100
+
+-----------------------------------------------------------------------------------
+
+MEDIDAS DE VARIABILIDAD
+
+El reporte de una medida de centro da solo información parcial sobre un conjunto o distribución de datos. Diferentes muestras o poblaciones pueden tener medidas idénticas de centro y aun así diferir entre si en otras importantes manera
+
+-----------------------------------------------------------------------------------
+
+RANGO
+
+El rango (también conocido como recorrido o amplitud) es una medida de dispersión que indica la diferencia entre el valor máximo y el valor mínimo de un conjunto de datos. Es una forma sencilla de entender cuanto se extienden los datos
+
+
+                                                R = max ( X ) - min ( X )
+
+
+--------------------------------------------------------------------------------
+
+DESVIACION DE LA MEDIA
+
+Las desviaciones de la media se obtienen restando X de cada una de las N observaciones muestrales. Una desviación será positiva si la observación es mas grande que la media, y negativa si es mas pequeña. Si todas las desviaciones son pequeñas en magnitud, entonces todas las X1 se aproximan a la media y hay poca variabilidad. Alternativamente, si algunas de las desviaciones son grandes en magnitud, entonces algunas X1 quedan lejos de X lo que sugiere una mayor variabilidad
+
+                                                   ------
+                              2          1       \      \                2
+                            S  = -----------  /          ( Xi - X ) 
+                                       n - 1     ------/     
+
+                                               ____
+                                      S = \/  8^2
+
+
+
+
+
+
